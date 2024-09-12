@@ -13,7 +13,7 @@ const Sidebar = ({ selectedCategory }) => {
     deliveryContact: "",
   });
 
-  // Debugging: log selectedCategory to ensure it's passed correctly
+
   console.log("Selected Category in Sidebar:", selectedCategory);
 
   return (

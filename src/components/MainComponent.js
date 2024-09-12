@@ -1,31 +1,27 @@
-import React from 'react';
-import CollapseGroup from './CollapseGroup';
+import React from "react";
+import CollapseGroup from "./CollapseGroup";
 import ProductCategory from "../components/ProductCategory ";
-
 
 const MainComponent = () => {
   const collapseItems = [
     {
-      id: '1',
-      title: 'Select Product category',
+      id: "1",
+      title: "Select Product category",
       content: (
         <>
-              <ProductCategory />
+          <ProductCategory />
         </>
       ),
     },
     {
-      id: '2',
-      title: 'Select Load Type',
+      id: "2",
+      title: "Select Load Type",
       content: (
         <>
-              <ProductCategory />
-  
+          <ProductCategory />
         </>
       ),
     },
-    
-    
   ];
 
   return (

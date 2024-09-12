@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import Collapse from './Collapse';
+import React, { useState } from "react";
+import Collapse from "./Collapse";
 
 const CollapseGroup = ({ items }) => {
   const [openCollapse, setOpenCollapse] = useState(null);
@@ -15,7 +15,8 @@ const CollapseGroup = ({ items }) => {
           key={item.id}
           title={item.title}
           isOpen={openCollapse === item.id}
-          onToggle={() => handleToggle(item.id)}>
+          onToggle={() => handleToggle(item.id)}
+        >
           {item.content}
         </Collapse>
       ))}
