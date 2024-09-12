@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Consumables",
+    "icon": "FiCoffee"
+  },
+  {
+    "name": "Electronics",
+    "icon": "FiCpu"
+  },
+
+  {
+    "name": "Smartphones",
+    "icon": "FiSmartphone"
+  },
+  {
+    "name": "Other",
+    "icon": "FiBox"
+  },
+  {
+    "name": "Other",
+    "icon": "FiBox"
+  },
+  {
+    "name": "Other",
+    "icon": "FiBox"
+  }
+]

@@ -1,0 +1,13 @@
+[
+    {
+      "id": "1",
+      "title": "Select Product category",
+      "content": "<ProductCategory />"
+    },
+    {
+      "id": "2",
+      "title": "Select Load Type",
+      "content": ""
+    }
+  ]
+  
